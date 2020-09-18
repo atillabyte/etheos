@@ -131,10 +131,10 @@ set(eoserv_ALL_SOURCE_FILES
 	src/handlers/Welcome.cpp
 	src/hash.cpp
 	src/hash.hpp
-	src/hashupdater.cpp
-	src/hashupdater.hpp
 	src/i18n.cpp
 	src/i18n.hpp
+	src/loginmanager.cpp
+	src/loginmanager.hpp
 	src/main.cpp
 	src/map.cpp
 	src/map.hpp
