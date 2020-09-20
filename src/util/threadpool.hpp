@@ -41,7 +41,7 @@ namespace util
         void queueInternal(const WorkFunc workerFunction, const void * state);
         void setNumThreadsInternal(size_t numWorkers);
 
-        void _workerProc();
+        void _workerProc(size_t threadNum);
 
         volatile bool _terminating;
 
